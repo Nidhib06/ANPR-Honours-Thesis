@@ -165,7 +165,7 @@ def mainfunc(img):
     result
     
     if not result:
-        with open('C:/Users/nidhi/OneDrive/Documents/UNIVERSITY/Thirdyear/Honors Thesis/Car_Dataset/Test_Results.txt', 'a') as f:
+        with open('C:/Users/nidhi/Test_Results.txt', 'a') as f:
           f.write(f"\n Image: {img}\n")
           f.write("Error (Plate detected Wrongly) \n")
         print("OCR could not read any text. Program will exit.")
