@@ -20,7 +20,7 @@ import PIL
 from PIL import ImageTk, Image
 from tkinter import filedialog
 
-plate_cascade = cv2.CascadeClassifier(r"C:\Users\nidhi\OneDrive\Documents\UNIVERSITY\Thirdyear\Honors Thesis\archive\indian_license_plate.xml")
+plate_cascade = cv2.CascadeClassifier(r"C:\Users\nidhi\UNIVERSITY\HonorsThesis\archive\indian_license_plate.xml")
 
 def detect_plate(img, text=''): # the function detects and perfors blurring on the number plate.
     plate_img = img.copy()
